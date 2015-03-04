@@ -6,7 +6,7 @@ class Model_brands extends PDOConnector{
 	/*
 		get all brands in tbl_brands
 		
-		return: $result (dataType: array)
+		return: $result (dataType: multiarray)
 	*/
 	public function getAllBrands(){
 		$this->connect();
