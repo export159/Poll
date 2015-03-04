@@ -1,2 +1,2 @@
 <?php
- echo "hellow world";
+ //link to controller/index.php file
