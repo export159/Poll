@@ -2,6 +2,7 @@ html {
 	font-family: Helvetica, Tahoma, sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+	font-size: 17px;
 }
 body
 {
@@ -46,6 +47,16 @@ table
 .head-title
 {
 	font-size: 30px;
+}
+.head-link
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: #777;
+}
+.head-link:hover
+{
+	color:#fff;
 }
 .form-common
 {
@@ -115,7 +126,50 @@ table
 {
 	width: 200px;
 }
+.poll-container
+{
+	background-color: #fff;
+	border: 1px solid #ddd;
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 20px #777;
+}
+.poll-wrap
+{
+	margin: 0 auto;
+	width: 700px;
+}
+.poll-table
+{
+	border: 1px solid #ddd;
+	font-size: 16px;
+	color: #222;
+	width: 100%;
+}
+.poll-table th, .poll-table td
+{
+	padding: 10px 20px;
+	text-align: center;
+}
+.poll-table th
+{
+	background-color: #ccc;
+}
+.poll-table tr:nth-child(even)
+{
+	background-color: #f0f0f0;
+}
 
+.wd60
+{
+	width: 60px;
+}
+.mt5
+{
+	margin-top: 5px;
+}
 .tacenter
 {
 	text-align: center;
