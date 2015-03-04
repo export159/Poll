@@ -13,6 +13,14 @@ class PDOConnector{
 		}catch(PDOException $e){
 			print_r($e);
 		}
-		print_r($this->dbh);
+		
+	}
+	
+	protected function close(){
+		try{
+			$this->dbh = null;
+		}catch(PDOException $e){
+			print_r($e);
+		}
 	}
 }
